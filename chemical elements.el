@@ -37,7 +37,7 @@
   (lanthanides-II)
   (actinides-I)
   (actinides-II)
-  (message "Completed comprehensive quiz for naming chemical elements (up to A=103)."))
+  (message "Completed comprehensive quiz for naming all the chemical elements (up to A=103)."))
 ; (describe-function 'chemical-elements-comprehensive)
 
 
@@ -555,7 +555,7 @@
   (lanthanides-II-reversed)
   (actinides-I-reversed)
   (actinides-II-reversed)
-  (message "Completed comprehensive quiz for naming chemical elements (up to A=103)."))
+  (message "Completed comprehensive quiz for naming all the chemical elements (up to A=103)."))
 ; (describe-function 'chemical-elements-comprehensive-reversed)
 
 (defun chemical-symbols ()
@@ -595,7 +595,7 @@
   (lanthanides-II-symbols)
   (actinides-I-symbols)
   (actinides-II-symbols)
-  (message "Completed comprehensive quiz for symbolizing chemical elements (up to A=103)."))
+  (message "Completed comprehensive quiz for symbolizing all the chemical elements (up to A=103)."))
 ; (describe-function 'chemical-symbols-comprehensive)
 
 

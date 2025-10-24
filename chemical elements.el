@@ -188,7 +188,7 @@
 ; (describe-function 'post-transition-metals)
 
 (defun metalloids ()
-  "Quiz the naming of metalloids. 5, 14-32, 33-51, 52, 85"
+  "Quiz the naming of metalloids."
   (interactive)
   (y-or-n-p "Metalloids")
   (let (list& element answer$)
@@ -238,7 +238,7 @@
         (setq list& (append list& (list element))))
       (if (string= answer$ (cdr (assoc element chemical-elements@)))
         (y-or-n-p "Correct!")))
-    (message "Complete quiz for naming alkali metals.")))
+    (message "Completed quiz for naming alkali metals.")))
 ; (describe-function 'alkali-metals)
 
 (defun noble-gases ()
@@ -256,7 +256,7 @@
         (setq list& (append list& (list element))))
       (if (string= answer$ (cdr (assoc element chemical-elements@)))
         (y-or-n-p "Correct!")))
-    (message "Complete quiz for naming noble gases.")))
+    (message "Completed quiz for naming noble gases.")))
 ; (describe-function 'noble-gases)
 
 (defun reactive-nonmetals ()
@@ -479,7 +479,7 @@
         (setq list& (append list& (list element$))))
       (if (= answer (cdr (assoc element$ chemical-elements-reversed@)))
         (y-or-n-p "Correct!")))
-    (message "Complete quiz for enumerating alkali metals.")))
+    (message "Completed quiz for enumerating alkali metals.")))
 ; (describe-function 'alkali-metals-reversed)
 
 (defun noble-gases-reversed ()
@@ -796,7 +796,7 @@
         (setq list& (append list& (list element))))
       (if (string= answer$ (cdr (assoc element chemical-symbols@)))
         (y-or-n-p "Correct!")))
-    (message "Complete quiz for symbolizing the alkali metals.")))
+    (message "Completed quiz for symbolizing the alkali metals.")))
 ; (describe-function 'alkali-metals-symbols)
 
 (defun noble-gases-symbols ()
@@ -814,7 +814,7 @@
         (setq list& (append list& (list element))))
       (if (string= answer$ (cdr (assoc element chemical-symbols@)))
         (y-or-n-p "Correct!")))
-    (message "Complete quiz for symbolizing the noble gases.")))
+    (message "Completed quiz for symbolizing the noble gases.")))
 ; (describe-function 'noble-gases-symbols)
 
 (defun reactive-nonmetals-symbols ()
@@ -1037,7 +1037,7 @@
         (setq list& (append list& (list element$))))
       (if (= answer (cdr (assoc element$ chemical-symbols-reversed@)))
         (y-or-n-p "Correct!")))
-    (message "Complete the quiz for enumerating the symbols of the alkali metals.")))
+    (message "Completed the quiz for enumerating the symbols of the alkali metals.")))
 ; (describe-function 'alkali-metals-symbols-reversed)
 
 (defun noble-gases-symbols-reversed ()
